@@ -1,0 +1,25 @@
+{
+  "name": "sistema-de-riego",
+  "version": "1.0.0",
+  "description": "Sistema de riego que corre en un servidor NodeJS en una Raspberry PI, la cual está conectada a un Arduino para el control fisico del sistema",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GuillermoOM/Sistema-de-riego.git"
+  },
+  "author": "Guillermo OM",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GuillermoOM/Sistema-de-riego/issues"
+  },
+  "homepage": "https://github.com/GuillermoOM/Sistema-de-riego#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "json": "^11.0.0",
+    "serialport": "^12.0.0",
+    "socket.io": "^4.7.2"
+  }
+}
